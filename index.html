@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+  In this file:
+  - You CAN edit the <body> structure and contents.
+  - You CAN change the current tags and their order inside the <body>.
+  - You CAN add new tags, ids and classes or wrap the existing ones inside the <body>.
+  BUT:
+  - You CANNOT edit the <head>.
+  - You CANNOT add additional external references (libraries, frameworks, etc.), this is going to be automatically tested.
+  - You CANNOT add javascript code or additional stylesheets. The test only copies your index.html and style.css files.
+  - You CANNOT remove template tags (variables between {}). The test may change the content of these.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnet Frontend Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <script src="site.js"></script>
+  </head>
+  <body>
+    <img src="img/logo.png">
+    Dogos
+    {navlinks}
+    <h1>{title}</h1>
+    {content1}
+    <a href="#"><img src="img/paw.png">Learn more</a>
+    {content2}
+    <a href="#"><img src="img/paw.png">Learn more</a>
+    {content3}
+    <a href="#"><img src="img/paw.png">Learn more</a>
+  </body>
+</html>

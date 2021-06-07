@@ -1,0 +1,26 @@
+/**
+* You can edit this whole file.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-0: #000000;
+  --gray-1: #222222;
+  --gray-2: #dddddd;
+  --gray-3: #fbfbfb;
+  --gray-4: #ffffff;
+  --primary: #8a2be2;
+  --secondary: #20d397;
+  --spacer-1: 4px;
+  --spacer-2: 8px;
+  --spacer-3: 16px;
+  --spacer-4: 24px;
+  --spcaer-5: 32px;
+  --shadows: 7px 7px 7px rgba(0, 0, 0, 0.15);
+}
