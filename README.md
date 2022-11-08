@@ -56,8 +56,9 @@ The only available tags are: `{navlinks}`, `{title}`, `{content1}`, `{content2}`
 #### Delivery method
 
 You will have full write access to your own fork of this project at
-http://interviews.magnet.cl/{your-user-name}/magnet-frontend-test
-Send us an email to interviews@magnet.cl when you push your
+http://interviews.magnet.cl/{your-user-name}/magnet-frontend-test.
+
+Send us a message on GetOnBoard when you push your
 last commit to the `master` branch and your answer is ready for review.
 
 Pull/Merge requests are not allowed on this project to prevent your answers
